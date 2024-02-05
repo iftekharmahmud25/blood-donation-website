@@ -35,7 +35,7 @@ const ServiceCards = () => {
                             <p className="md:text-xl text-base mb-2  mt-2 text-justify">
                                 {service.description.slice(0, 200)}...
                             </p>
-                            <p className="text-xl font-semibold">Price: ${service.price}</p>
+                            <p className="text-xl font-semibold">Price: Free of Cost{service.price}</p>
                             <div className="flex justify-between mt-3">
                                 <div></div>
                                 <Link to={`/services/${service.id}`}>

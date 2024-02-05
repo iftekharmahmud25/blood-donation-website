@@ -78,35 +78,35 @@ const SignUp = () => {
   return (
     <div>
               <Helmet>
-  <title>&#8707;ntertainPlaz | SignUp</title>
+  <title>DonateBlood | SignUp</title>
  </Helmet>
 
       <div className="hero">
         <div className="hero-content ">
           <div className="card lg:w-[300px] shadow-2xl bg-base-100 ">
-            <h1 className="text-center text-3xl font-bold mt-3">Please Sign Up</h1>
+            <h1 className="text-center text-3xl font-bold mt-3">Please Register</h1>
             <form onSubmit={handleSignUp} className="card-body">
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Name</span>
+                  <span className="label-text">Add Donor</span>
                 </label>
-                <input type="text" name="name" placeholder="Your Name" className="input input-bordered" required />
+                <input type="text" name="name" placeholder="Please Add Donner" className="input input-bordered" required />
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Photo</span>
+                  <span className="label-text">Search For Blood</span>
                 </label>
-                <input type="text" name="image" placeholder="Photo URL" className="input input-bordered"  />
+                <input type="text" name="image" placeholder="Search For Blood" className="input input-bordered"  />
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  <span className="label-text">Add Patient</span>
                 </label>
-                <input type="email" name="email" placeholder="email" className="input input-bordered" required />
+                <input type="email" name="email" placeholder="Add Patient" className="input input-bordered" required />
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Password</span>
+                  <span className="label-text">Donor List</span>
                  
                 </label>
                 
@@ -114,20 +114,15 @@ const SignUp = () => {
                 <input
                  type={showPassword ? "text" : "password"} 
                  name="password" 
-                 placeholder="password" 
+                 placeholder="Donor" 
                  className="input input-bordered" required />
 
-                <span className="absolute top-4 right-7" onClick={()=>setShowPassword(!showPassword)}>
-                    {
-                       showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
-                    }
-                    
-                  </span>
+              
                 </div>
                    
               </div>
               <div className="form-control mt-6">
-                <button className="bg-gradient-to-r from-cyan-800  to-cyan-500 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-cyan-800 text-xl  px-4 py-2 rounded-md text-white">Sign Up</button>
+                <button className="bg-gradient-to-r from-cyan-800  to-cyan-500 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-cyan-800 text-xl  px-4 py-2 rounded-md text-white">Register</button>
               </div>
             </form>
             <p className="text-center text-sm mb-4">Already  have an account? <Link to='/login' className="text-cyan-800 font-bold">Login</Link> here</p>

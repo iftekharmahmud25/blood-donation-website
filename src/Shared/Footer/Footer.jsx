@@ -8,8 +8,8 @@ const Footer = () => {
                     //    className="transform hover:scale-110 transition-transform duration-300"
                     className="animate-bounce text-blue-500"
                 />
-                <p>&#8707;ntertainPlaza Ltd.<br />Providing reliable services since 2021</p>
-                <p>Copyright © 2023 - All right reserved by Iftekhar Mahmud</p>
+                <p>DonateBlood.<br />Providing reliable services since 2020</p>
+                <p>Copyright © 2023 - All right reserved </p>
             </aside>
             <nav>
                 <header className="lg:mt-14 md:mt-12">Social</header>

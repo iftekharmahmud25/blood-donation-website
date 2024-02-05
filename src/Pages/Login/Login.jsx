@@ -56,7 +56,7 @@ const handleGoogleSignIn = () => {
   
     <div>
        <Helmet>
-  <title>&#8707;ntertainPlaz | Login</title>
+  <title>DonateBlood| Login</title>
  </Helmet>
         
          <div className="hero ">
