@@ -1,3 +1,4 @@
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -5,15 +6,31 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDreG5FgWFZyrks6p49_htKlBqCp87tyJA",
-  authDomain: "event-management-2f739.firebaseapp.com",
-  projectId: "event-management-2f739",
-  storageBucket: "event-management-2f739.appspot.com",
-  messagingSenderId: "1016551498412",
-  appId: "1:1016551498412:web:e89989cadfa9d335797509"
+  apiKey: "AIzaSyBlp5WHC-AuEHFvtCW-Rf3IrnL9gKVTOMU",
+  authDomain: "blood-donation-e0029.firebaseapp.com",
+  projectId: "blood-donation-e0029",
+  storageBucket: "blood-donation-e0029.appspot.com",
+  messagingSenderId: "435211409787",
+  appId: "1:435211409787:web:06d08711d56e17ddbe45de"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
 export default app;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
