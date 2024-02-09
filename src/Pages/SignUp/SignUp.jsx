@@ -88,25 +88,25 @@ const SignUp = () => {
             <form onSubmit={handleSignUp} className="card-body">
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Add Donor</span>
+                  <span className="label-text">Name</span>
                 </label>
-                <input type="text" name="name" placeholder="Please Add Donner" className="input input-bordered" required />
+                <input type="text" name="name" placeholder="Enter Your Name" className="input input-bordered" required />
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Search For Blood</span>
+                  <span className="label-text">Photo</span>
                 </label>
-                <input type="text" name="image" placeholder="Search For Blood" className="input input-bordered"  />
+                <input type="text" name="image" placeholder="Enter Your Photo" className="input input-bordered"  />
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Add Patient</span>
+                  <span className="label-text">Email</span>
                 </label>
-                <input type="email" name="email" placeholder="Add Patient" className="input input-bordered" required />
+                <input type="email" name="email" placeholder="Enter Your Email" className="input input-bordered" required />
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Donor List</span>
+                  <span className="label-text"> Password</span>
                  
                 </label>
                 
@@ -114,7 +114,7 @@ const SignUp = () => {
                 <input
                  type={showPassword ? "text" : "password"} 
                  name="password" 
-                 placeholder="Donor" 
+                 placeholder="Enter Your Password" 
                  className="input input-bordered" required />
 
               
