@@ -6,7 +6,7 @@ import SignUp from "../Pages/SignUp/SignUp";
 import CardDetails from "../Pages/CardDetails/CardDetails";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PrivateRoute from "./PrivateRoute";
-
+import More from "../Pages/More/more";
 
 const router = createBrowserRouter([
      {
@@ -26,6 +26,11 @@ const router = createBrowserRouter([
              {
                 path:"/signUp",
                 element: <SignUp></SignUp>
+             },
+             { 
+                path : "/more",
+                element: <More></More>
+
              },
              {  
                 path: "/services/:id",
