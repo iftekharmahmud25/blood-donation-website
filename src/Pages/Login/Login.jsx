@@ -44,6 +44,13 @@ const handleGoogleSignIn = () => {
         console.log(resut.user)
         e.target.reset()
         navigate(location ?.state ? location.state :  '/')
+     
+        
+
+
+
+
+
     })
     .catch(error =>{
          toast(error.message)
@@ -65,7 +72,8 @@ const handleGoogleSignIn = () => {
             
               <div className="card lg:w-[300px] shadow-2xl bg-base-100">
               <h1 className="text-center text-3xl font-bold mt-3">Please Login</h1>
-                <form onSubmit={handleLogin} className="card-body">
+                <form method="post" onSubmit={handleLogin} className="card-body">
+                  
                   <div className="form-control">
     
                     <label className="label">
