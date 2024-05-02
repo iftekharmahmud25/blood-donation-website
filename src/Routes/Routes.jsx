@@ -7,6 +7,7 @@ import CardDetails from "../Pages/CardDetails/CardDetails";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PrivateRoute from "./PrivateRoute";
 import More from "../Pages/More/more";
+import Admin from "../Pages/Admin/Admin";
 
 const router = createBrowserRouter([
      {
@@ -36,7 +37,12 @@ const router = createBrowserRouter([
                 path: "/services/:id",
                 element:<PrivateRoute>  <CardDetails></CardDetails></PrivateRoute>,
                 loader : ()=> fetch('/services.json')
+             },
+             {
+               path : "/Admin",
+               element:<Admin></Admin>
              }
+
          ]
      }
 ])

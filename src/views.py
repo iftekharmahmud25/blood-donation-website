@@ -78,5 +78,5 @@ urlpatterns = [
     path('donors/', donor_list, name='donor_list'),
     path('blood-banks/', blood_bank_list, name='blood_bank_list'),
     path('donation-requests/', donation_request_list, name='donation_request_list'),
-    # Add more URLs as needed
+    
 ]
