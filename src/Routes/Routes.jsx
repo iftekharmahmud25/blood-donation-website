@@ -8,6 +8,9 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PrivateRoute from "./PrivateRoute";
 import More from "../Pages/More/more";
 import Admin from "../Pages/Admin/Admin";
+import Contact from "../Pages/Contact/Contact";
+
+
 
 const router = createBrowserRouter([
      {
@@ -41,7 +44,16 @@ const router = createBrowserRouter([
              {
                path : "/Admin",
                element:<Admin></Admin>
+             },
+             {
+               path : "/Contact",
+               element : <Contact></Contact>
              }
+
+          
+           
+           
+           
 
          ]
      }

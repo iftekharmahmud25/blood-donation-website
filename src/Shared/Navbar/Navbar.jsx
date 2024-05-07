@@ -39,6 +39,7 @@ const Navbar = () => {
         >
           Admin
         </NavLink>
+
         <NavLink
           to="/more"
           className="text-cyan-500 font-bold pe-3"
@@ -46,6 +47,16 @@ const Navbar = () => {
         >
           More
         </NavLink>
+
+        <NavLink
+          to="/Contact"
+          className="text-cyan-500 font-bold pe-3"
+          activeClassName="active underline text-cyan-800 font-bold pe-3"
+        >
+          Contact
+        </NavLink>
+
+      
       </div>
 
       <div className="navbar-end">
