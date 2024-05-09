@@ -1,7 +1,14 @@
 import React from "react";
+import { useLoaderData } from "react-router-dom";
+
 import Swal from "sweetalert2";
 
 const More = () => {
+
+   const feedbackData = useLoaderData();
+   console.log(feedbackData)
+   
+
   const handleAddFeedBack = (event) => {
     event.preventDefault();
     const form = event.target;
@@ -116,6 +123,14 @@ const More = () => {
           className="btn btn-block mt-4 bg-gradient-to-r from-cyan-800  to-cyan-500 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-cyan-800 text-xl  px-4 py-2 rounded-md text-white"
         />
       </form>
+      
+      <ul className="text-xl text-cyan-800 py-4">
+  {feedbackData.map((feedback, index) => (
+    <li key={index}>{index + 1}. {feedback.feedback}</li>
+  ))}
+</ul>
+
+      
     </div>
   );
 };

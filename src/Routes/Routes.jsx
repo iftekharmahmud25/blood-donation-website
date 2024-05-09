@@ -33,7 +33,8 @@ const router = createBrowserRouter([
              },
              { 
                 path : "/more",
-                element: <More></More>
+                element: <More></More>,
+                loader : ()=>fetch("http://localhost:5000/feedback")
 
              },
              {  
